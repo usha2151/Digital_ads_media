@@ -2,6 +2,7 @@ import React from 'react'
 import { CustomerTrust } from '../../images'
 import ProvideServices from './ProvideServices'
 import Article from './Article'
+import Adviser from './Adviser'
 const Custome_Relationship = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const Custome_Relationship = () => {
           <ProvideServices />
         </div>
         <Article />
+        <Adviser />
 
     </>
   )
