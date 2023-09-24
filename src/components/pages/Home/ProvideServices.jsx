@@ -6,7 +6,7 @@ const ProvideServices = () => {
     <div className='text-center'>
           <div className="flex items-center justify-center mt-5">
       <div className="w-10 h-2 bg-blue-500 mr-2"></div> {/* Left Line */}
-      <p className="mx-2">WHAT WE DO</p>
+      <p className="mx-2 text-sky font-bold text-h6">WHAT WE DO</p>
       <div className="w-10 h-2 bg-blue-500 ml-2"></div> {/* Right Line */}
     </div>
 
