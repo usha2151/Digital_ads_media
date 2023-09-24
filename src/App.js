@@ -1,10 +1,14 @@
 import './App.css';
-
+import Custome_Relationship from './components/pages/Home/Custome_Relationship';
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-center">
-      Hello world!
-    </h1>
+  <>
+  <div>
+  <Custome_Relationship />
+
+  </div>
+  </>
+    
   );
 }
 

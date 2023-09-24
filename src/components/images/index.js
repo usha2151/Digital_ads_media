@@ -1,4 +1,4 @@
-import Digital_ads_media_customer_trust from "./Home/Digital_ads_media_customer_trust";
+import CustomerTrust from "./Home/Digital-ads-media-customer-trust.jpg"
 
 
 
@@ -7,5 +7,6 @@ import Digital_ads_media_customer_trust from "./Home/Digital_ads_media_customer_
 
 
 export {
-    Digital_ads_media_customer_trust 
+    CustomerTrust,
+
 }
