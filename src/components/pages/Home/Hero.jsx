@@ -35,7 +35,7 @@ const Hero = () => {
       style={heroStyle}
     >
          <Navbar />
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black opacity-80"></div>
       <div className="absolute inset-0 flex flex-col items-start justify-center">
       <div className="container mx-auto px-20">
         <p className="text-h1 font-bold text-white mb-4">
