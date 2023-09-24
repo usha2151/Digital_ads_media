@@ -6,7 +6,7 @@ const Custome_Relationship = () => {
   return (
     <>
     
-    <div className='grid grid-cols-1 lg:grid-cols-2 container'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 container mx-auto' style={{marginTop:'110px'}}>
         <div className='mx-auto'>
             <img src={CustomerTrust}></img>
         </div>
@@ -17,7 +17,7 @@ const Custome_Relationship = () => {
         </div>
         </div> 
         {/* service provide component import  */}
-        <div className='mt-5'>
+        <div className='container mx-auto' style={{marginTop:'80px'}}>
           <ProvideServices />
         </div>
         <Article />

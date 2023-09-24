@@ -31,7 +31,7 @@ module.exports = {
       'h3': '40px',
       'h4': '30px',
       'h5': '24px',
-      'h6': '18px',
+      'h6': '14px',
     },
     extend: {},
   },

@@ -1,14 +1,18 @@
-import './App.css';
-import Custome_Relationship from './components/pages/Home/Custome_Relationship';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home/Home";
+import Footer from "./components/Common/Footer";
+
 function App() {
   return (
-  <>
-  <div>
-  <Custome_Relationship />
-
-  </div>
-  </>
-    
+    <>
+       <Router>
+       
+         <Routes>
+           <Route path="/" element={<Home />} />
+         </Routes>
+         <Footer />
+       </Router>
+    </>
   );
 }
 
