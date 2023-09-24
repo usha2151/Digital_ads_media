@@ -25,7 +25,7 @@ const VerticalBackground = () => {
         </div>
 
         {/* Column 2 */}
-        <div className="bg-red py-4 relative">
+        <div className="bg-transparent py-4 relative">
             
             <div className='flex w-68 justify-end absolute z-20 left-[42.89%]'>
             <p className='bg-blue py-8 px-10'><i class="fa-solid fa-users text-h1 text-white"></i></p>
