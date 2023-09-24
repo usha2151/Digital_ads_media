@@ -12,11 +12,18 @@ module.exports = {
       '2xl': '1536px',
     },
     colors: {
-      'sky': '#22d3ee',
+      'sky': '#0676df',
+      'blue':'#0084ff',
       'black': '#000000',
+      'dimblue':'#2f4c68',
       'white': '#FFFFFF',
-      'gray': '#151515',
+      'gray': '#7f7f7f',
+      'red':'#fa2b56',
       'gray-100':'#8B8B8B',
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
     },
     fontSize: {
       'h1': '60px',
