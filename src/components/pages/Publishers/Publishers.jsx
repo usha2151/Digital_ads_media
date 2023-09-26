@@ -1,26 +1,27 @@
 import React from 'react'
-import hero2 from "../../images/Home/hero_2.jpg";
 import Navbar from '../../Common/Navbar';
+import { Publisher_bg } from '../../images';
+import AboutPublisher from './AboutPublisher';
 
 const Publishers = () => {
   return (
+    <>
     <div className="relative">
-      {/* Background Image */}
       <div
-        className="bg-cover bg-center h-96 relative"
+        className="bg-cover bg-center h-[480px] relative"
         style={{
-          backgroundImage: `url(${hero2})`,
+          backgroundImage: `url(${Publisher_bg})`,
         }}
       >
         <Navbar />
         {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="absolute inset-0 bg-black opacity-70"></div>
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-start justify-center text-white">
         <div className="container mx-auto px-20">
           <p className="text-h1 font-poppins font-bold">Publishers</p>
-          <p className="text-h5 font-400">Join as a publisher with Uprise Media now….</p>
+          <p className="text-h5 font-400 font-poppins">Join the Digital Revolution as a Publisher with Us!</p>
 
           {/* Buttons */}
           <div className="mt-6">
@@ -35,6 +36,8 @@ const Publishers = () => {
         </div>
       </div>
     </div>
+    <AboutPublisher />
+    </>
   )
 }
 
