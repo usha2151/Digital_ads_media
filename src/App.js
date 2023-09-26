@@ -5,6 +5,7 @@ import Publishers from "./components/pages/Publishers/Publishers";
 import OurServices from "./components/pages/OurServices/OurServices";
 import Advertisers from "./components/pages/Advertisers/Advertisers";
 import ContactUs from "./components/pages/ContactUs/ContactUs";
+import AboutUs from "./components/pages/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
            <Route path="/services" element={<OurServices />} />
            <Route path="/advertisers" element={<Advertisers />} />
            <Route path="/contact_us" element={<ContactUs />} />
+           <Route path="/about_us" element={<AboutUs />} />
          </Routes>
          <Footer />
        </Router>
