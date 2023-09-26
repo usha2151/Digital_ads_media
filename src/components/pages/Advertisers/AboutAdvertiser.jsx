@@ -14,7 +14,7 @@ const AboutAdvertiser = () => {
             <p className='w-20 h-[1px] bg-sky mt-[12px]'></p>
         </div>
         <p className='text-h4 font-poppins font-bold mb-4'>About Our Advertiser:</p>
-        <p className='mb-4'>Welcome to the advertising powerhouse! At [Your Company Name], we are excited to partner with you on your journey to elevate your brand and reach new heights in the digital realm.</p>
+        <p className='mb-4'>Welcome to the advertising powerhouse! At Digil ads Media, we are excited to partner with you on your journey to elevate your brand and reach new heights in the digital realm.</p>
         <p className='font-bold text-h5 mb-4'>Why Advertise With Us?</p>
         <div className='ml-4'>
         <ul class="list-none mb-4">

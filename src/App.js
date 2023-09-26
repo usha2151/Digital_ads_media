@@ -4,6 +4,7 @@ import Footer from "./components/Common/Footer";
 import Publishers from "./components/pages/Publishers/Publishers";
 import OurServices from "./components/pages/OurServices/OurServices";
 import Advertisers from "./components/pages/Advertisers/Advertisers";
+import ContactUs from "./components/pages/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
            <Route path="/publisher" element={<Publishers />} />
            <Route path="/services" element={<OurServices />} />
            <Route path="/advertisers" element={<Advertisers />} />
+           <Route path="/contact_us" element={<ContactUs />} />
          </Routes>
          <Footer />
        </Router>
