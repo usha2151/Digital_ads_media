@@ -6,11 +6,11 @@ const Navbar = () => {
 
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "OUR SERVICES", link: "/print" },
-    { name: "PUBLISHERS", link: "/digital" },
-    { name: "ADVERTISER", link: "/blog" },
-    { name: "CONTACT US", link: "/contact" },
-    { name: "ABOUT US", link: "/blog" }
+    { name: "OUR SERVICES", link: "/services" },
+    { name: "PUBLISHERS", link: "/publisher" },
+    { name: "ADVERTISER", link: "/" },
+    { name: "CONTACT US", link: "/" },
+    { name: "ABOUT US", link: "/" }
   ];
 
   let [open, setOpen] = useState(false);
