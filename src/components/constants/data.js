@@ -60,3 +60,31 @@ export const Featured = [
         button:'Read more'
     }
 ]
+
+export const ServiceCard = [
+    {
+        id:1,
+        service:'Affiliate Marketing',
+        icon:<i class="fa-solid fa-chart-line"></i>
+    },
+    {
+        id:2,
+        service:'Strategy & Consulting',
+        icon:<i class="fa-solid fa-chart-simple"></i>
+    },
+    {
+        id:3,
+        service:'Mobile Marketing',
+        icon:<i class="fa-solid fa-mobile-screen-button"></i>
+    },
+    {
+        id:4,
+        service:'Social Media Marketing',
+        icon:<i class="fa-brands fa-square-facebook"></i>
+    },
+    {
+        id:5,
+        service:'Search Engine Marketing',
+        icon:<i class="fa-solid fa-magnifying-glass"></i>
+    }
+]

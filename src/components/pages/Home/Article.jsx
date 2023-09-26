@@ -24,7 +24,7 @@ const Article = () => {
        
       </div>
       <div className="px-6 py-4">
-        <button className="bg-blue hover:bg-dimblue text-white rounded-md py-2 px-4">
+        <button className="bg-blue hover:bg-black text-white rounded-md py-2 px-4">
           {data.button}
         </button>
       </div>
