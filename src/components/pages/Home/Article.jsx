@@ -3,7 +3,7 @@ import { Featured } from '../../constants/data'
 const Article = () => {
   return (
     <>
-    <div style={{marginTop:'80px'}}>
+    <div style={{marginTop:'80px'}} className='container mx-auto px-16'>
         <div className="flex items-center justify-center mt-5">
       <div className="w-16 h-0.5 bg-blue mr-2"></div> {/* Left Line */}
       <p className="px-2 text-sky font-bold text-h5">Our New Blogs</p>

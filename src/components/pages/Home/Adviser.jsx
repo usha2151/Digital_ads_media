@@ -24,7 +24,8 @@ const Adviser = () => {
     };
   return (
     <>
-      <div className='grid grid-cols-2 container mx-auto' style={{marginTop:'80px'}}>
+    <div className='container mx-auto px-16'>
+      <div className='grid grid-cols-2 gap-4' style={{marginTop:'80px'}}>
         <div>
         <div className="flex items-center justify-start mt-5">
       <p className="px-2 text-sky font-bold text-h6">OUR SKILL</p>
@@ -80,6 +81,7 @@ We’re pride of ourselves on transforming our clients for the better, helping t
        <img src={OurAdviser}></img>
         </div>
 
+      </div>
       </div>
     </>
   )
