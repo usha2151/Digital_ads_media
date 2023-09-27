@@ -12,8 +12,8 @@ module.exports = {
       '2xl': '1536px',
     },
     colors: {
-      'sky': '#0676df',
-      'blue':'#0084ff',
+      'sky': '#429EBD',
+      'blue':'#053F5C',
       'black': '#000000',
       'dimblue':'#2f4c68',
       'white': '#FFFFFF',

@@ -50,13 +50,13 @@ export const Featured = [
     {
         id:2,
         featuredImage:Google_Product,
-        title:'What Google’s Product Review Update Means for Your Ecommerce Site',
+        title:'Account-Based Marketing: Past, Present, and Future',
         button:'Read more'
     },
     {
         id:3,
         featuredImage:Error_404,
-        title:'What Are Soft 404s and How to Fix Them',
+        title:'Account-Based Marketing: Past, Present, and Future',
         button:'Read more'
     }
 ]

@@ -8,7 +8,7 @@ const Custome_Relationship = () => {
     
     <div className='grid grid-cols-1 lg:grid-cols-2 container mx-auto' style={{marginTop:'110px'}}>
         <div className='mx-auto'>
-            <img src={CustomerTrust}></img>
+            <img src={CustomerTrust} className='h-[500px] w-[450px]'></img>
         </div>
         <div className='m-auto'>
             <p className='text-blue font-bold'>ABOUT Us</p>

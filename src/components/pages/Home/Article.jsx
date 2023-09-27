@@ -10,16 +10,16 @@ const Article = () => {
       <div className="w-16 h-0.5 bg-blue ml-2"></div> {/* Right Line */}
     </div>
     <p className='text-h2 font-bold text-center mb-5'>Our Featureed Artical</p>
-    <div className='grid grid-cols-1 md:grid-cols-3'>
+    <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
         {Featured.map((data,index)=> 
       <div key={index} className="max-w-md rounded overflow-hidden shadow-lg p-5">
       <img
         src={data.featuredImage}
         alt="Nature"
-        className="w-full h-auto object-cover"
+        className="w-full h-64 object-cover"
       />
-      <div className="px-6 py-4">
-        <div className="font-bold text-h5 mb-2">{data.title}
+      <div className="px-6 pt-4">
+        <div className="font-bold text-[20px] w-full mb-2">{data.title}
 </div>
        
       </div>
