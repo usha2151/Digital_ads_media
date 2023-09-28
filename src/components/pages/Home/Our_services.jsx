@@ -18,14 +18,14 @@ const VerticalBackground = () => {
       <div className="w-1/3 h-full absolute top-0 right-0 bg-white"></div>
 
       {/* Add the grid layout */}
-      <div className="absolute top-0 left-0 w-full h-full grid grid-cols-2 gap-6">
+      <div className="absolute top-0 left-0 w-full h-full grid lg:grid-cols-2 grid-cols-1 gap-6">
         {/* Column 1 */}
         <div className="bg-transparent p-4">
             <p className='text-white font-bold text-center'>OUR SERVICES DIGITAL MARKETING</p>
         </div>
 
         {/* Column 2 */}
-        <div className="bg-transparent py-4 relative">
+        <div className="bg-transparent py-4 relative hidden lg:block">
             
             <div className='flex w-68 justify-end absolute z-20 left-[42.89%]'>
             <p className='bg-blue py-8 px-10'><i class="fa-solid fa-users text-h1 text-white"></i></p>

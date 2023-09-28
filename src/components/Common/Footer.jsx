@@ -1,5 +1,6 @@
 import React from 'react';
 import hero from "../images/Home/hero_2.jpg";
+import { logo } from '../images';
 
 const Footer = () => {
   return (
@@ -19,11 +20,10 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <div className="widget1">
               <div className="logo">
-                <img
-                  src="https://i.ibb.co/vLDyPtM/ak-logo-yellow.png"
-                  className="w-48 mx-auto"
-                  alt=""
-                />
+              <img src={logo} alt="" className="h-10 px-4 ml-8 w-20"/>
+            <p className="text-h6 font-bold font-poppins w-full">
+      <span className="custom-text"></span>
+    </p>
               </div>
               <p className="text-sm mt-6">
                 In eu libero ligula. Fusce eget metus lorem, ac viverra leo.

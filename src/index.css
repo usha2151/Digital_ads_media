@@ -1,4 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-text {
+    position: relative;
+    font-size: 1rem; /* Adjust the font size as needed */
+    font-weight: bold; 
+    font-family: 'Poppins', sans-serif; /* Use your desired font */
+    color: purple; /* Set the text color to purple */
+  }
+  
+  .custom-text::before {
+    content: "DIGITAL ADS MEDIA";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 10rem !important;
+    color: #800080; /* Set the shadow color to orange */
+    z-index: -1;
+    text-shadow: 2px 2px 0 rgba(255, 165, 0, 0.7); /* Adjust shadow properties */
+  }

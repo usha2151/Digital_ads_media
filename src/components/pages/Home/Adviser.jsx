@@ -25,7 +25,7 @@ const Adviser = () => {
   return (
     <>
     <div className='container mx-auto px-16'>
-      <div className='grid grid-cols-2 gap-4' style={{marginTop:'80px'}}>
+      <div className='grid lg:grid-cols-2 grid-cols-1 gap-4' style={{marginTop:'80px'}}>
         <div>
         <div className="flex items-center justify-start mt-5">
       <p className="px-2 text-sky font-bold text-h6">OUR SKILL</p>
@@ -62,23 +62,16 @@ We’re pride of ourselves on transforming our clients for the better, helping t
       </div>
       <div className='mt-5'>
         <p className='text-gray-100 w-3/4 leading-7'>{tabContent[selectedTab].description}</p>
-        <div className='flex mt-5'>
-          <div className='justify-start'>
-            <p className='font-bold text-sky text-h3'>
-              1,700<span className='text-h5 text-blue'>+</span>
-            </p>
-            <p className='text-h4 text-gray-100 font-bold'>Our Publishers</p>
-          </div>
-          <div className='justify-end flex items-center'>
-            <div className='w-1 h-16 bg-blue mr-4'></div> {/* Right Line */}
-            <img src={BestAdviser} alt='Best Adviser' />
-          </div>
-        </div>
       </div>
       
         </div>
         <div>
-       <img src={OurAdviser}></img>
+          <div className="relative container">
+  <img src={BestAdviser} alt="Bottom Image" className="w-96 h-[420px]" />
+  <img src={BestAdviser} alt="Top Image" className="absolute top-40  left-40 w-96  h-[350px] shadow border-white border-[20px]" />
+</div>
+
+       {/* <img src={OurAdviser}></img> */}
         </div>
 
       </div>

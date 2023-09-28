@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { logo } from "../images";
 
 const Navbar = () => {
   const navbarRef = useRef(null);
@@ -67,7 +68,10 @@ const Navbar = () => {
       <div className="md:flex text-white items-center container justify-between bg-transparent mx-auto xl:py-4 md:px-16 lg:px-10 xl:px-20 2xl:px-52 px-7">
         <div className=" cursor-pointer flex items-center">
           <Link to="/">
-            <p className="text-h6">DIGITAL ADS MEDIA</p>
+            <img src={logo} alt="" className="h-10 px-4 ml-8 w-20"/>
+            <p className="text-h6 font-bold font-poppins w-full">
+      <span className="custom-text"></span>
+    </p>
           </Link>
         </div>
 
