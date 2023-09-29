@@ -2,8 +2,8 @@ import React from 'react'
 
 const GetInTouch = () => {
   return (
-    <div className='container mx-auto px-16 py-16'>
-    <div className='grid grid-cols-2 gap-16'>
+    <div className='container mx-auto px-6 lg:px-16 py-16'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
       <div>
       <iframe
                 src="https://www.google.com/maps/embed?pb=!1.771070944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a66677f%3A0x8f85bd068d1afb8a!2s30%20N%20Gould%20St%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sin!4v1684734636299!5m2!1sen!2sin"
@@ -11,7 +11,7 @@ const GetInTouch = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                className="h-full  border-none rounded "
+                className="lg:h-full h-[400px] border-none rounded "
                 style={{marginLeft:"-11px"}}
               ></iframe>
       </div>
@@ -20,8 +20,8 @@ const GetInTouch = () => {
             <p className='text-sky font-poppins'>CONTACT US</p>
             <p className='w-20 h-[1px] bg-sky mt-[12px]'></p>
         </div>
-        <p className='text-h3 font-poppins font-bold mb-4'>Needs Help? Let’s Get in Touch</p>
-        <p className='mb-4'>If you want to contact our team for support, please feel free to reach us. Your feedback will help us to inprove our services.</p>
+        <p className='text-h4 lg:text-h3 font-poppins font-bold mb-4'>Needs Help? Let’s Get in Touch</p>
+        <p className='mb-4 text-justify'>If you want to contact our team for support, please feel free to reach us. Your feedback will help us to inprove our services.</p>
         <ul class="list-none mb-4">
   <li class="flex mb-2 gap-6">
     <span class="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-4 border-sky"><i class="fa-solid fa-phone"></i></span>

@@ -24,17 +24,17 @@ const Adviser = () => {
     };
   return (
     <>
-    <div className='container mx-auto px-16'>
+    <div className='container mx-auto px-6 md:px-16 mb-32 lg:mb-0'>
       <div className='grid lg:grid-cols-2 grid-cols-1 gap-4' style={{marginTop:'80px'}}>
         <div>
         <div className="flex items-center justify-start mt-5">
       <p className="px-2 text-sky font-bold text-h6">OUR SKILL</p>
       <div className="w-16 h-0.5 bg-blue ml-2"></div> {/* Right Line */}
     </div> 
-    <p className='text-h3 font-bold mt-3'>Trust That You're Working The Best Advertiser</p>
-    <p className='text-gray-100 w-3/4 font-medium mt-4 leading-7'>
+    <p className='md:text-h3 text-h5 font-poppins font-bold mt-3'>Trust That You're Working The Best Advertiser</p>
+    <p className='text-gray-100 lg:w-3/4 font-medium text-justify mt-4 leading-7'>
 We’re pride of ourselves on transforming our clients for the better, helping them to grow & making them more resilient to pressure of consistent changes in the business. Invess Accounting Services offer a broad spectrum</p>  
-      <div className='flex gap-8 mt-5'>
+      <div className='flex gap-4 md:gap-8 mt-5'>
       <button
           className={`text-white p-4 w-48 rounded-md ${
             selectedTab === 'mission' ? 'bg-blue' : 'hover:bg-gray text-black border-b-4 border-blue'
@@ -61,14 +61,14 @@ We’re pride of ourselves on transforming our clients for the better, helping t
         </button>
       </div>
       <div className='mt-5'>
-        <p className='text-gray-100 w-3/4 leading-7'>{tabContent[selectedTab].description}</p>
+        <p className='text-gray-100 lg:w-3/4 font-medium text-justify leading-7'>{tabContent[selectedTab].description}</p>
       </div>
       
         </div>
         <div>
           <div className="relative container">
-  <img src={BestAdviser} alt="Bottom Image" className="w-96 h-[420px]" />
-  <img src={BestAdviser} alt="Top Image" className="absolute top-40  left-40 w-96  h-[350px] shadow border-white border-[20px]" />
+  <img src={BestAdviser} alt="Bottom Image" className="md:w-96 w-56 h-[200px] md:h-[420px]" />
+  <img src={BestAdviser} alt="Top Image" className="absolute md:top-40 top-28 left-24 md:left-40 md:w-96 w-52 h-[200px]  md:h-[350px] shadow border-white border-8 md:border-[20px]" />
 </div>
 
        {/* <img src={OurAdviser}></img> */}

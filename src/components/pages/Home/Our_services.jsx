@@ -5,7 +5,7 @@ import hero2 from '../../images/Home/hero_3.jpg'; // Update with your image path
 
 const VerticalBackground = () => {
   return (
-    <div className='bg-white py-10'>
+    <div className='bg-white py-10 hidden lg:block'>
     <div className="h-screen relative">
       <div className="w-2/3 h-[auto] absolute top-0 left-0">
         <img
@@ -25,7 +25,7 @@ const VerticalBackground = () => {
         </div>
 
         {/* Column 2 */}
-        <div className="bg-transparent py-4 relative hidden lg:block">
+        <div className="bg-transparent py-4 relative ">
             
             <div className='flex w-68 justify-end absolute z-20 left-[42.89%]'>
             <p className='bg-blue py-8 px-10'><i class="fa-solid fa-users text-h1 text-white"></i></p>

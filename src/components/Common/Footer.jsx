@@ -15,9 +15,9 @@ const Footer = () => {
       <div className="absolute inset-0 bg-black opacity-90"></div>
 
       {/* Footer Content */}
-      <div className="container mx-auto px-24 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-2 lg:col-span-1">
+      <div className="container mx-auto px-6 lg:px-24 relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8">
+          <div className="sm:col-span-3 md:col-span-1 lg:col-span-1">
             <div className="widget1">
               <div className="logo">
               <img src={logo} alt="" className="h-10 px-4 ml-8 w-20"/>
