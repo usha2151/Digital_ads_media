@@ -1,5 +1,7 @@
 import React from 'react'
 import { Featured } from '../../constants/data'
+import { Link } from 'react-router-dom'
+
 const Article = () => {
   return (
     <>
@@ -23,11 +25,12 @@ const Article = () => {
 </div>
        
       </div>
-      <div className="px-6 py-4">
+     <Link to="/artical_blog"><div className="px-6 py-4">
         <button className="bg-blue hover:bg-black text-white rounded-md py-2 px-4">
           {data.button}
         </button>
       </div>
+      </Link>
       <div className="w-full h-2 bg-blue-500 absolute bottom-0 left-0"></div>
     </div>
     )}
