@@ -36,8 +36,8 @@ const Adviser = () => {
 We’re pride of ourselves on transforming our clients for the better, helping them to grow & making them more resilient to pressure of consistent changes in the business. Invess Accounting Services offer a broad spectrum</p>  
       <div className='flex gap-4 md:gap-8 mt-5'>
       <button
-          className={`text-white p-4 w-48 rounded-md ${
-            selectedTab === 'mission' ? 'bg-blue' : 'hover:bg-gray text-black border-b-4 border-blue'
+          className={`text-black p-4 w-48 rounded-md ${
+            selectedTab === 'mission' ? 'bg-blue text-white' : 'hover:bg-gray text-black border-b-4 border-blue'
           }`}
           onClick={() => handleTabClick('mission')}
         >
@@ -45,15 +45,15 @@ We’re pride of ourselves on transforming our clients for the better, helping t
         </button>
         <button
           className={`hover:bg-gray text-black border-b-4 border-blue p-4 w-48 rounded-md ${
-            selectedTab === 'vision' ? 'bg-blue' : ''
+            selectedTab === 'vision' ? 'bg-blue text-white' : ''
           }`}
           onClick={() => handleTabClick('vision')}
         >
           Our Vision
         </button>
         <button
-          className={`hover:bg-gray text-black border-b-4 border-blue p-4 w-48 rounded-md ${
-            selectedTab === 'values' ? 'bg-blue' : ''
+          className={`hover:bg-gray hover:text-black border-b-4 border-blue p-4 w-48 rounded-md ${
+            selectedTab === 'values' ? 'bg-blue text-white' : ''
           }`}
           onClick={() => handleTabClick('values')}
         >
