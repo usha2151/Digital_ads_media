@@ -7,15 +7,20 @@ const Adviser = () => {
       mission: {
         title: 'Our Mission',
         description:
-          'To be a partner in your business growth by applying our digital marketing expertise and custom promotion strategy built on tools and technologies, creating value for your brand.',
+          `🌟 Mission: Your growth, our passion.
+          🌠 Your objectives, our mission. Together, we achieve greatness.
+          🔥 Driven by a singular purpose: Your prosperity.
+          '`
       },
       vision: {
         title: 'Our Vision',
-        description: 'Uprise Media will be the first choice digital marketing partner providing 360 degree marketing services to businesses throughout the region. We will become an integral part of our client’s success,',
+        description: `🌐 Shaping a digital landscape where every business thrives. 💡 Our vision: Transforming challenges into opportunities in the digital age.
+        🌌 Creating a brighter, more connected future for brands online.`,
       },
       values: {
         title: 'Our Values',
-        description: 'Our values are the guiding principles upon which Uprise Media was founded and how we strive to conduct our business on a daily basis.',
+        description: `🤝 Collaboration is our strength together, we achieve more. 
+        💼 We take ownership and accountability for our actions. `,
       },
     };
   

@@ -19,8 +19,8 @@ const OurServices = () => {
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-        <p className="text-h1 font-poppins font-bold">Our Service</p>
-          <p className="text-h6 font-bold text-gray">We Use to offer many useful services that can add some value in your life or business.</p>
+        <p className="lg:text-h1 text-h3 font-poppins font-bold">Our Service</p>
+          <p className="text-h6 font-bold text-center lg:px-16 text-whte lg:w-1/2">Welcome to our suite of services designed to boost your online presence and help your business thrive. At Digital Ads Media, we offer solutions that meet your digital marketing and development needs.</p>
 
           {/* Buttons */}
           <div className="mt-6">
@@ -35,12 +35,12 @@ const OurServices = () => {
       </div>
 
 {/* services card */}
-<div className='bg-dimblue pt-1 pb-24 md:pt-0 md:pb-0 md:p-0 h-3/4 md:h-96'>
+<div className='bg-dimblue pt-1 pb-24 lg:pt-0 lg:pb-0 lg:p-0 h-3/4 lg:h-96'>
 <div className='container mx-auto'>
 
-<div className='grid grid-cols-1 gap-4 md:gap-0 md:grid-cols-5'>
+<div className='grid grid-cols-1 gap-4 lg:gap-2  lg:grid-cols-6'>
   {ServiceCard.map((data,index)=>
-    <div key={index} className='bg-white text-center mx-auto mt-4 w-80 md:w-56 p-2 md:p-8 rounded-lg md:relative md:-mt-24'>
+    <div key={index} className='bg-white text-center mx-auto mt-4 w-80 lg:w-40 xl:w-48 p-2 lg:p-8 rounded-lg md:relative lg:-mt-24'>
 <span className='font-bold text-h3 text-sky  rounded-md w-16 py-2 mx-auto'>{data.icon}</span>
 <p className='font-bold text-h6 mt-2 md:mt-4'>{data.service}</p>
 </div>

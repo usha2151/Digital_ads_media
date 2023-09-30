@@ -6,37 +6,37 @@ export const ServiceProvider = [
         id: 1,
         icon: <i class="fa-solid fa-chart-line"></i>,
         serviceType: 'Affiliate Marketing',
-        description: 'Looking towards working on a performance-based model? We will help you get the right exposure to a few of the best Affiliate Networks and publishers all across India.'
+        description: 'Harness the power of partnerships with our affiliate marketing services. Increase your revenue by collaborating with affiliates who promote your products or services, ensuring a win-win for all parties involved.'
     },
     {
         id: 2,
         icon: <i class="fa-solid fa-chart-simple"></i>,
-        serviceType: 'Strategy & Consulting',
-        description: 'While you are the best judge for your own business, some questions are so important that they deserve an extra dose of creativity. We are here to help you.'
+        serviceType: 'Search Engine Optimization',
+        description: 'Get noticed by your target audience with our SEO expertise. We optimize your website to rank higher in search engine results, driving organic traffic and enhancing your online visibility.'
     },
     {
         id: 3,
         icon: <i class="fa-solid fa-mobile-screen-button"></i>,
-        serviceType: 'Mobile Marketing',
-        description: 'Usually considered as a component of a multi-channel campaign, with the increasing widespread use of smartphones. You should use this great opportunity.'
+        serviceType: 'Performance Marketing',
+        description: 'Achieve measurable results with our performance marketing strategies. We tailor campaigns to deliver maximum ROI, ensuring that every dollar you invest yields substantial returns.'
     },
     {
         id: 4,
         icon: <i class="fa-solid fa-magnifying-glass"></i>,
-        serviceType: 'Search Engine Marketing',
-        description: 'Looking for a Google certified Partner? We help you increase your search engine visibility via paid advertising. Take your web result on the top of searches.'
+        serviceType: 'AI Chatbots',
+        description: 'Enhance customer engagement and support with AI-powered chatbots. Our chatbots provide instant responses, 24/7 availability, and personalized interactions to delight your customers.'
     },
     {
         id: 5,
         icon: <i class="fa-brands fa-square-facebook"></i>,
-        serviceType: 'Social Media Marketing',
-        description: 'We help you socialize with your target audience on platforms such as Facebook, Twitter, Google Plus, Instagram, LinkedIn, and other platforms. Grow with Uprise Media.'
+        serviceType: 'Web and App Development',
+        description: 'Turn your ideas into reality with our web and app development services. Our skilled developers create user-friendly, responsive, and feature-rich websites and applications that align with your goals.'
     },
     {
         id: 6,
         icon: <i class="fa-solid fa-envelope"></i>,
-        serviceType: 'Email Marketing',
-        description: 'We help you socialize with your target audience on platforms such as Facebook, Twitter, Google Plus, Instagram, LinkedIn, and other platforms. Grow with Uprise Media.'
+        serviceType: 'Brand Marketing',
+        description: 'Build a strong brand identity and captivate your audience with our brand marketing solutions. We craft compelling brand stories and strategies that resonate with your target market, driving brand loyalty and recognition.'
     }
 ];
 
@@ -69,22 +69,27 @@ export const ServiceCard = [
     },
     {
         id:2,
-        service:'Strategy & Consulting',
+        service:'Search Engine Optimization',
         icon:<i class="fa-solid fa-chart-simple"></i>
     },
     {
         id:3,
-        service:'Mobile Marketing',
+        service:'Performance Marketing',
         icon:<i class="fa-solid fa-mobile-screen-button"></i>
     },
     {
         id:4,
-        service:'Social Media Marketing',
+        service:'AI Chatbots',
         icon:<i class="fa-brands fa-square-facebook"></i>
     },
     {
         id:5,
-        service:'Search Engine Marketing',
+        service:'Web and App Development',
+        icon:<i class="fa-solid fa-magnifying-glass"></i>
+    },
+    {
+        id:6,
+        service:'Brand Marketing',
         icon:<i class="fa-solid fa-magnifying-glass"></i>
     }
 ]

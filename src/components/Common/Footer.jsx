@@ -1,6 +1,7 @@
 import React from 'react';
 import hero from "../images/Home/hero_2.jpg";
 import { logo } from '../images';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -26,103 +27,95 @@ const Footer = () => {
     </p>
               </div>
               <p className="text-sm mt-6">
-                In eu libero ligula. Fusce eget metus lorem, ac viverra leo.
-                Nullam convallis, arcu vel pellentesque sodales, nisi est
-                varius diam, ac ultrices sem ante quis sem. Proin ultricies
-                volutpat sapien.
+                In a digital world overflowing with options, choosing the right partner can make or break your success. At Digital Ads Media, we're not just another agency; we're the catalyst for your digital triumph.
               </p>
              
             </div>
           </div>
-          <div className="col-span-1 md:col-span-1 lg:col-span-1">
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 lg:mt-8">
             <div className="widget3">
               <h5 className="text-lg">ADDRESS LIST</h5>
               <ul className="mt-4">
                 <li>
-                  <a href="#" className="text-sm">
-                  <i className="fab fa-facebook-f mr-2 text-sky"></i>
-                  S-1 , 2nd Floor, Plot No.A-84, Sector 4, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301
-                  </a>
+                  <Link to="#" className="text-sm">
+                  <i class="fa-solid fa-location-dot text-sky mr-2"></i>
+                  Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                  <i className="fab fa-linkedin-in me-2 text-sky"></i>
+                  <Link to="#" className="text-sm">
+                  <i class="fa-solid fa-phone text-sky mr-2"></i>
                   0120 4252536
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                  <i className="fab fa-twitter me-2 text-sky"></i>
-                  contact@uprisemedia.in
-                  </a>
+                  <Link to="#" className="text-sm">
+                  <i class="fa-regular fa-envelope text-sky mr-2"></i>
+                  contact@digitaladsmedia.in
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-span-1 md:col-span-1 lg:col-span-1 md:mx-auto">
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 md:mx-auto lg:mt-8">
             <div className="widget3">
               <h5 className="text-lg">SOCIAL LINKS</h5>
               <ul className="mt-4">
                 <li>
-                  <a href="#" className="text-sm">
-                  <i className="fab fa-facebook-f mr-2 text-sky"></i>
+                  <Link to="#" className="text-sm hover:text-sky">
+                  <i className="fab fa-facebook-f mr-2 text-sky mr-2"></i>
                     facebook
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                  <i className="fab fa-linkedin-in me-2 text-sky"></i>
+                  <Link to="#" className="text-sm hover:text-sky">
+                  <i className="fab fa-linkedin-in me-2 text-sky mr-2"></i>
                     linkdin
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                  <i className="fab fa-twitter me-2 text-sky"></i>
+                  <Link to="#" className="text-sm hover:text-sky">
+                  <i className="fab fa-twitter me-2 text-sky mr-2"></i>
                     twitter
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                  <i className="fab fa-twitter me-2 text-sky"></i>
+                  <Link to="#" className="text-sm hover:text-sky">
+                  <i class="fa-brands fa-instagram text-sky mr-2"></i>
                     instagram
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-span-1 md:col-span-1 lg:col-span-1 ">
+          <div className="col-span-1 md:col-span-1 lg:col-span-1 lg:mt-8">
             <div className="widget4">
-              <h5 className="text-lg">Other Links</h5>
+              <h5 className="text-lg">Quick Links</h5>
               <ul className="mt-4">
                 <li>
-                  <a href="#" className="text-sm">
-                    themeforest
-                  </a>
+                  <Link to="/services" className="text-sm hover:text-sky">
+                    Our Services
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                    graphicriver
-                  </a>
+                  <Link to="/publisher" className="text-sm hover:text-sky">
+                    Publishers
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                    codecanyon
-                  </a>
+                  <Link to="/advertisers" className="text-sm hover:text-sky">
+                    Advertise
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                    videohive
-                  </a>
+                  <Link to="/about_us" className="text-sm hover:text-sky">
+                    About Us 
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-sm">
-                    redpen
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-sm">
-                    codepen
-                  </a>
+                  <Link to="/contact_us" className="text-sm hover:text-sky">
+                  Contact Us
+                  </Link>
                 </li>
               </ul>
             </div>
