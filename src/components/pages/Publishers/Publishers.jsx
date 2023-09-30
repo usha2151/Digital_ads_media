@@ -19,9 +19,9 @@ const Publishers = () => {
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-start justify-center text-white">
-        <div className="container mx-auto px-20">
-          <p className="text-h1 font-poppins font-bold">Publishers</p>
-          <p className="text-h5 font-400 font-poppins">Join the Digital Revolution as a Publisher with Us!</p>
+        <div className="container mx-auto px-6 md:px-20">
+          <p className="md:text-h1 text-h4 font-poppins font-bold">Publishers</p>
+          <p className="md:text-h5 text-[16px] font-400 font-poppins">Join the Digital Revolution as a Publisher with Us!</p>
 
           {/* Buttons */}
           <div className="mt-6">

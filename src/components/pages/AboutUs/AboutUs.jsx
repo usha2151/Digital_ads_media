@@ -20,7 +20,7 @@ const AboutUs = () => {
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-start justify-center text-white">
-        <div className="container mx-auto px-20">
+        <div className="container mx-auto px-6 lg:px-20">
           <p className="text-h1 font-poppins font-bold mt-32">About Us</p>
           <div class="flex gap-16">
     <span class="mr-2 text-[20px] text-white font-poppins">Follow Us On</span>

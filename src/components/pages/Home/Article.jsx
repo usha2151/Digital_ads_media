@@ -3,14 +3,14 @@ import { Featured } from '../../constants/data'
 const Article = () => {
   return (
     <>
-    <div style={{marginTop:'80px'}} className='container mx-auto px-16'>
+    <div style={{marginTop:'80px'}} className='container mx-auto px-6 md:px-16'>
         <div className="flex items-center justify-center mt-5">
       <div className="w-16 h-0.5 bg-blue mr-2"></div> {/* Left Line */}
-      <p className="px-2 text-sky font-bold text-h5">Our New Blogs</p>
+      <p className="md:px-2 text-sky font-bold text-h6 md:text-h5">Our New Blogs</p>
       <div className="w-16 h-0.5 bg-blue ml-2"></div> {/* Right Line */}
     </div>
-    <p className='text-h2 font-bold text-center mb-5'>Our Featureed Artical</p>
-    <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+    <p className='md:text-h2 text-h4 font-poppins font-bold text-center mb-5'>Our Featureed Artical</p>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
         {Featured.map((data,index)=> 
       <div key={index} className="max-w-md rounded overflow-hidden shadow-lg p-5">
       <img

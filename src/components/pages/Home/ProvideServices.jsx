@@ -4,7 +4,7 @@ import { ServiceProvider } from '../../constants/data';
 
 const ProvideServices = () => {
   return (
-    <div className='container mx-auto px-16'>
+    <div className='container mx-auto px-6 md:px-16'>
     <div className='text-center'>
     <div className="flex items-center justify-center mt-5">
       <div className="w-16 h-0.5 bg-blue mr-2"></div> {/* Left Line */}
@@ -12,7 +12,7 @@ const ProvideServices = () => {
       <div className="w-16 h-0.5 bg-blue ml-2"></div> {/* Right Line */}
     </div>
 
-    <p className='text-h3 mt-5'>Services We Use To Provide</p>
+    <p className='md:text-h3 text-h4 font-bold font-poppins mt-5'>Services We Use To Provide</p>
 
     <div className='mt-5'>
         <div className='grid gap-12 mx-auto lg:grid-cols-3 grid-cols-1 md:grid-cols-2 '>

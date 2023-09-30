@@ -19,9 +19,9 @@ const Advertisers = () => {
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-start justify-center text-white">
-        <div className="container mx-auto px-20">
-          <p className="text-h1 font-poppins font-bold">Advertiser</p>
-          <p className="text-h5 font-400 font-poppins">Advertising That Elevates Your Brand: Join Us as an Advertiser</p>
+        <div className="container mx-auto px-6 md:px-20">
+          <p className="md:text-h1 text-h4 font-poppins font-bold">Advertiser</p>
+          <p className="md:text-h5 text-[16px] font-400 font-poppins">Advertising That Elevates Your Brand: Join Us as an Advertiser</p>
 
           {/* Buttons */}
           <div className="mt-6">

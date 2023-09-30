@@ -14,6 +14,7 @@ import Publisher_ab from "./Publishers/publisher_ab.jpg";
 import advertisers_bg from "./Advertisers/advertisers_bg.jpg";
 import advertisers_ab from "./Advertisers/advertiser_ab.jpg";
 import About from "./About/Digital-ads-media-About.jpg";
+import logo from "./Home/logo.png";
 
 
 
@@ -33,5 +34,6 @@ export {
     Publisher_ab,
     advertisers_bg,
     advertisers_ab,
-    About
+    About,
+    logo,
 }

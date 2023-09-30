@@ -19,11 +19,11 @@ const ContactUs = () => {
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-start justify-center text-white">
-        <div className="container mx-auto px-20">
-          <div className="grid grid-cols-2">
+        <div className="container mx-auto px-6 lg:px-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
             <div>
-            <p className="text-h1 font-poppins font-bold mt-72">Contact Us</p>
-            <p className="text-h5  font-poppins">Get In Touch With Uprise Media</p>
+            <p className="text-h3 lg:text-h1 font-poppins font-bold mt-6 lg:mt-72">Contact Us</p>
+            <p className="text-[18px] lg:text-h5 mb-6 lg:mb-0  font-poppins">Get In Touch With Uprise Media</p>
             </div>
             <div >
       <form className="space-y-4">
