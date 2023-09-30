@@ -3,7 +3,7 @@ import Navbar from '../../Common/Navbar';
 import { advertisers_bg } from '../../images';
 import Custome_Relationship from '../Home/Custome_Relationship';
 import Adviser from '../Home/Adviser';
-
+import WorkProcess from './WorkProcess';
 const AboutUs = () => {
   return (
     <div className='mb-14'>
@@ -36,6 +36,7 @@ const AboutUs = () => {
       </div>
     </div>
     <Custome_Relationship />
+   <WorkProcess />
     <Adviser />
     </div>
 
