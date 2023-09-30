@@ -31,8 +31,9 @@ const Navbar = () => {
       if (scrollY > scrollThreshold) {
         navbar.style.transition = `background-color ${transitionDuration}, box-shadow ${transitionDuration}`;
         navbar.style.backgroundColor = "black"; // Change to your desired background color
-        navbar.style.boxShadow = "0px 4px 6px rgba(0, 0, 0, 0.1)"; // Add the desired shadow
+        navbar.style.boxShadow = "0px 10px 5px 0px rgba(0, 0, 0, 0.4)"; // Add the desired shadow
         navbar.style.padding = "15px 0";
+        navbar.style.transition = "1s";
       } else {
         navbar.style.transition = `background-color ${transitionDuration}, box-shadow ${transitionDuration}`;
         navbar.style.backgroundColor = "transparent";

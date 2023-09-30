@@ -3,6 +3,8 @@ import hero from "../../images/Home/hero_3.jpg";
 import Navbar from '../../Common/Navbar';
 import { ServiceCard } from '../../constants/data';
 import ServicesType from './ServicesType';
+import { Link } from 'react-router-dom';
+
 const OurServices = () => {
   return (
     <div className="relative">
@@ -24,12 +26,14 @@ const OurServices = () => {
 
           {/* Buttons */}
           <div className="mt-6">
-            <button className="px-4 py-3 md:px-6 md:py-4 bg-sky font-bold hover:bg-blue text-white mr-2 md:mr-4">
+          <Link to="https://digitaladsmedia07.offer18.com/m"><button className="px-4 py-3 md:px-6 md:py-4 bg-sky font-bold hover:bg-blue text-white mr-2 md:mr-4">
             <i class="fa-regular fa-circle-right mr-2"></i>Affilate Sign Up
             </button>
-            <button className="px-4 py-3 md:px-6 md:py-4 bg-sky font-bold hover:bg-blue text-white">
+            </Link>
+            <Link to="https://digitaladsmedia07.offer18.com/m"> <button className="px-4 py-3 md:px-6 md:py-4 bg-sky font-bold hover:bg-blue text-white">
             <i class="fa-regular fa-circle-right mr-2"></i>Affilate Login In
             </button>
+            </Link>
           </div>
         </div>
       </div>

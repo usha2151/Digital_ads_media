@@ -1,5 +1,6 @@
 import React from 'react'
 import { Publisher_ab } from '../../images'
+import { Link } from 'react-router-dom'
 
 const AboutAdvertiser = () => {
   return (
@@ -74,12 +75,14 @@ const AboutAdvertiser = () => {
         <p className='text-h5 font-bold font-poppins mb-2'>Get Started Today</p>
         <p>Take the first step towards a successful advertising journey with us. We can't wait to see your brand shine! 🌟🚀</p>
         <div className="mt-6">
-            <button className="md:px-6 px-4 py-4 bg-sky font-bold hover:bg-blue text-white mr-4">
+            <Link to="/contact_us"><button className="md:px-6 px-4 py-4 bg-sky font-bold hover:bg-blue text-white mr-4">
               Contact Us 
             </button>
-            <button className="md:px-6 px-4 py-4 bg-sky hover:bg-blue font-bold text-white">
+            </Link>
+            <Link to="/contact_us"><button className="md:px-6 px-4 py-4 bg-sky hover:bg-blue font-bold text-white">
             Advertise With Us
             </button>
+            </Link>
             </div>
         </div>
       </div>

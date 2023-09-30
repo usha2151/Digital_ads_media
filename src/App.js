@@ -7,6 +7,7 @@ import Advertisers from "./components/pages/Advertisers/Advertisers";
 import ContactUs from "./components/pages/ContactUs/ContactUs";
 import AboutUs from "./components/pages/AboutUs/AboutUs";
 import Artical_blog from "./components/pages/ArticalBlog/Artical_blog";
+import Default_page from "./components/defaultPage/Default_page";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
            <Route path="/contact_us" element={<ContactUs />} />
            <Route path="/about_us" element={<AboutUs />} />
            <Route path="/artical_blog" element={<Artical_blog />} />
+           <Route path="/*" element={<Default_page />} />
          </Routes>
          <Footer />
        </Router>

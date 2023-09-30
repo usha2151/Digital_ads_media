@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Common/Navbar';
 import { Publisher_bg } from '../../images';
 import AboutPublisher from './AboutPublisher';
+import { Link } from 'react-router-dom';
 
 const Publishers = () => {
   return (
@@ -25,12 +26,14 @@ const Publishers = () => {
 
           {/* Buttons */}
           <div className="mt-6">
-            <button className="px-6 py-4 bg-sky font-bold hover:bg-blue text-white mr-4">
+           <Link to="/contact_us"> <button className="px-6 py-4 bg-sky font-bold hover:bg-blue text-white mr-4">
               Contact Us 
             </button>
-            <button className="px-6 py-4 bg-sky hover:bg-blue font-bold text-white">
+            </Link>
+            <Link to="https://digitaladsmedia07.offer18.com/m"><button className="px-6 py-4 bg-sky hover:bg-blue font-bold text-white">
               Login In
             </button>
+            </Link>
             </div>
           </div>
         </div>

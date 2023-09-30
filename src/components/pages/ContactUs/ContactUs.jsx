@@ -2,6 +2,7 @@ import React from 'react'
 import { advertisers_ab } from '../../images';
 import Navbar from '../../Common/Navbar';
 import GetInTouch from './GetInTouch';
+import { Link } from 'react-router-dom';
 
 const ContactUs = () => {
   return (
@@ -86,12 +87,13 @@ const ContactUs = () => {
           ></textarea>
         </div>
         <div>
-          <button
+        <Link to="/contact_us"><button
             type="submit"
             className="w-full bg-blue text-white font-semibold py-2 px-4 font-poppins rounded-lg hover:bg-blue-600"
           >
             Send Messages
           </button>
+          </Link>
         </div>
       </form>
     </div>
