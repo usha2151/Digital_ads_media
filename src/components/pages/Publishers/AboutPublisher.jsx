@@ -7,7 +7,7 @@ const AboutPublisher = () => {
     <div className='container mx-auto px-6 lg:px-16 py-16'>
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
       <div>
-      <img src={Publisher_ab} alt="Publisher_ab" className='lg:h-[1100px] md:h-[480px] h-[350px] w-full'/>
+      <img src={Publisher_ab} alt="Publisher_ab" className='lg:h-[850px] md:h-[480px] h-[350px] w-full'/>
       </div>
       <div>
         <div className='flex gap-4'>

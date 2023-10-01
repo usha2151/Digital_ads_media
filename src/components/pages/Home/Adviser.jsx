@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BestAdviser, OurAdviser, OurAdviserAdviser } from '../../images'
+import { adv1,adv2 } from '../../images';
 const Adviser = () => {
     const [selectedTab, setSelectedTab] = useState('mission'); // Default tab
 
@@ -72,8 +72,8 @@ We’re pride of ourselves on transforming our clients for the better, helping t
         </div>
         <div>
           <div className="relative container">
-  <img src={BestAdviser} alt="Bottom Image" className="md:w-96 w-56 h-[200px] md:h-[420px]" />
-  <img src={BestAdviser} alt="Top Image" className="absolute md:top-40 top-28 left-24 md:left-40 md:w-96 w-52 h-[200px]  md:h-[350px] shadow border-white border-8 md:border-[20px]" />
+  <img src={adv2} alt="Bottom Image" className="md:w-[433px] w-56 h-[200px] md:h-[420px]" />
+  <img src={adv1} alt="Top Image" className="absolute md:top-40 top-28 left-24 md:left-40 md:w-96 w-52 h-[200px]  md:h-[350px] shadow border-white border-8 md:border-[20px]" />
 </div>
 
        {/* <img src={OurAdviser}></img> */}

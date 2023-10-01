@@ -10,7 +10,7 @@ const WorkProcess = () => {
             <p className='text-sky font-thin'>WORK PROCESS</p>
       <div className="w-16 h-0.5 bg-sky ml-2"></div> {/* Right Line */}
     </div>
-                <p className='md:text-h3 text-h4 font-bold'>About OUr Services</p>
+                <p className='md:text-h3 text-h4 font-bold'>About Our Services</p>
                 <div className='flex gap-5 mt-5'>
                 <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2' ><i class="fa-solid fa-star"></i></span>
                 <div>

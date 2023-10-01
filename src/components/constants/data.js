@@ -22,19 +22,19 @@ export const ServiceProvider = [
     },
     {
         id: 4,
-        icon: <i class="fa-solid fa-magnifying-glass"></i>,
+        icon: <i class="fa-solid fa-robot"></i>,
         serviceType: 'AI Chatbots',
         description: 'Enhance customer engagement and support with AI-powered chatbots. Our chatbots provide instant responses, 24/7 availability, and personalized interactions to delight your customers.'
     },
     {
         id: 5,
-        icon: <i class="fa-brands fa-square-facebook"></i>,
+        icon: <i class="fa-solid fa-laptop-code"></i>,
         serviceType: 'Web and App Development',
         description: 'Turn your ideas into reality with our web and app development services. Our skilled developers create user-friendly, responsive, and feature-rich websites and applications that align with your goals.'
     },
     {
         id: 6,
-        icon: <i class="fa-solid fa-envelope"></i>,
+        icon: <i class="fa-solid fa-shuffle"></i>,
         serviceType: 'Brand Marketing',
         description: 'Build a strong brand identity and captivate your audience with our brand marketing solutions. We craft compelling brand stories and strategies that resonate with your target market, driving brand loyalty and recognition.'
     }
@@ -80,16 +80,16 @@ export const ServiceCard = [
     {
         id:4,
         service:'AI Chatbots',
-        icon:<i class="fa-brands fa-square-facebook"></i>
+        icon:<i class="fa-solid fa-robot"></i>
     },
     {
         id:5,
         service:'Web and App Development',
-        icon:<i class="fa-solid fa-magnifying-glass"></i>
+        icon:<i class="fa-solid fa-laptop-code"></i>
     },
     {
         id:6,
         service:'Brand Marketing',
-        icon:<i class="fa-solid fa-magnifying-glass"></i>
+        icon:<i class="fa-solid fa-shuffle"></i>
     }
 ]
