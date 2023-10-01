@@ -4,6 +4,14 @@ import { logo } from '../images';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   return (
     <footer className="relative text-white pt-16">
       {/* Background Image */}
@@ -21,7 +29,7 @@ const Footer = () => {
           <div className="sm:col-span-3 md:col-span-1 lg:col-span-1">
             <div className="widget1">
               <div className="logo">
-              <img src={logo} alt="" className="h-10 px-4 ml-8 w-20"/>
+              <img src={logo} alt="footer_logo" className="h-10 px-4 ml-8 w-20"/>
             <p className="text-h6 font-bold font-poppins w-full">
       <span className="custom-text"></span>
     </p>
@@ -38,19 +46,19 @@ const Footer = () => {
               <ul className="mt-4">
                 <li>
                   <Link to="#" className="text-sm">
-                  <i class="fa-solid fa-location-dot text-sky mr-2"></i>
-                  Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301
+                  <i className="fa-solid fa-location-dot text-sky mr-2"></i>
+                  1 st A Main Rd, 7th Block,Koramangala,Bengaluru,Karnataka 560095
                   </Link>
                 </li>
                 <li>
                   <Link to="#" className="text-sm">
-                  <i class="fa-solid fa-phone text-sky mr-2"></i>
-                  0120 4252536
+                  <i className="fa-solid fa-phone text-sky mr-2"></i>
+                  +91 8368958328
                   </Link>
                 </li>
                 <li>
                   <Link to="#" className="text-sm">
-                  <i class="fa-regular fa-envelope text-sky mr-2"></i>
+                  <i className="fa-regular fa-envelope text-sky mr-2"></i>
                   contact@digitaladsmedia.in
                   </Link>
                 </li>
@@ -81,7 +89,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link to="#" className="text-sm hover:text-sky">
-                  <i class="fa-brands fa-instagram text-sky mr-2"></i>
+                  <i className="fa-brands fa-instagram text-sky mr-2"></i>
                     instagram
                   </Link>
                 </li>
@@ -93,27 +101,27 @@ const Footer = () => {
               <h5 className="text-lg">Quick Links</h5>
               <ul className="mt-4">
                 <li>
-                  <Link to="/services" className="text-sm hover:text-sky">
+                  <Link to="/services" className="text-sm hover:text-sky" onClick={scrollToTop}>
                     Our Services
                   </Link>
                 </li>
                 <li>
-                  <Link to="/publisher" className="text-sm hover:text-sky">
+                  <Link to="/publisher" className="text-sm hover:text-sky" onClick={scrollToTop}>
                     Publishers
                   </Link>
                 </li>
                 <li>
-                  <Link to="/advertisers" className="text-sm hover:text-sky">
+                  <Link to="/advertisers" className="text-sm hover:text-sky" onClick={scrollToTop}>
                     Advertise
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about_us" className="text-sm hover:text-sky">
+                  <Link to="/about_us" className="text-sm hover:text-sky" onClick={scrollToTop}>
                     About Us 
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact_us" className="text-sm hover:text-sky">
+                  <Link to="/contact_us" className="text-sm hover:text-sky" onClick={scrollToTop}>
                   Contact Us
                   </Link>
                 </li>

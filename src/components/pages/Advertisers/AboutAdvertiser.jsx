@@ -18,29 +18,29 @@ const AboutAdvertiser = () => {
         <p className='mb-4 text-justify'>Welcome to the advertising powerhouse! At Digil ads Media, we are excited to partner with you on your journey to elevate your brand and reach new heights in the digital realm.</p>
         <p className='font-bold text-h5 mb-4'>Why Advertise With Us?</p>
         <div className='ml-4'>
-        <ul class="list-none mb-4">
-  <li class="flex mb-2">
-    <span class="mr-2">🚀</span>
+        <ul className="list-none mb-4">
+  <li className="flex mb-2">
+    <span className="mr-2">🚀</span>
     <p className='text-justify'>Strategic Reach: With our expertise in digital marketing, we ensure your ads reach the right audience at the right time, maximizing your ROI.</p>
   </li>
-  <li class="flex mb-2">
-    <span class="mr-2">📈</span>
+  <li className="flex mb-2">
+    <span className="mr-2">📈</span>
     <p className='text-justify'>Data-Driven Insights: We provide in-depth analytics and data-driven insights to help you make informed decisions and optimize your ad campaigns.</p>
   </li>
-  <li class="flex mb-2">
-    <span class="mr-2">🔍</span>
+  <li className="flex mb-2">
+    <span className="mr-2">🔍</span>
     <p className='text-justify'>Search Engine Marketing (SEM): Boost your visibility with paid search advertising on major search engines.</p>
   </li>
-  <li class="flex mb-2">
-    <span class="mr-2">📲</span>
+  <li className="flex mb-2">
+    <span className="mr-2">📲</span>
     <p className='text-justify'>Mobile Advertising: Reach consumers on the go with mobile-optimized ad campaigns.</p>
   </li>
-  <li class="flex mb-2">
-    <span class="mr-2">🎥</span>
+  <li className="flex mb-2">
+    <span className="mr-2">🎥</span>
     <p className='text-justify'>Video Advertising: Harness the power of video to engage and inform your audience.</p>
   </li>
-  <li class="flex">
-    <span class="mr-2">📊</span>
+  <li className="flex">
+    <span className="mr-2">📊</span>
     <p className='text-justify'>Programmatic Advertising: Automate your ad buying process for more efficient and effective campaigns.</p>
   </li>
 </ul>

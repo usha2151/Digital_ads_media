@@ -12,7 +12,7 @@ const WorkProcess = () => {
     </div>
                 <p className='md:text-h3 text-h4 font-bold'>About Our Services</p>
                 <div className='flex gap-5 mt-5'>
-                <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2' ><i class="fa-solid fa-star"></i></span>
+                <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2' ><i className="fa-solid fa-star"></i></span>
                 <div>
                     <p className='font-bold text-h5'>Meeting</p>
                     <p className='text-gray w-3/4 mt-2 text-justify'>At first we understand all the requrements before execution. So that we can get more accurate result.</p>
@@ -20,7 +20,7 @@ const WorkProcess = () => {
                 </div>
 
                 <div className='flex gap-5 mt-5'>
-                <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2'><i class="fa-solid fa-code"></i></span>
+                <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2'><i className="fa-solid fa-code"></i></span>
                 <div>
                     <p className='font-bold text-h5'>Planning</p>
                     <p className='text-gray w-3/4 mt-2 text-justify'>Planning is always done keeping the end goal .We also prepared an alternative plan to make sure our success.</p>
@@ -28,7 +28,7 @@ const WorkProcess = () => {
                 </div>
 
                 <div className='flex gap-5 mt-5'>
-                <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2'><i class="fa-solid fa-star"></i></span>
+                <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2'><i className="fa-solid fa-star"></i></span>
                 <div>
                     <p className='font-bold text-h5'>Executions</p>
                     <p className='text-gray w-3/4 mt-2 text-justify'>After successful planning, we use to execute our plan according to our clients requerment.</p>
@@ -36,7 +36,7 @@ const WorkProcess = () => {
                 </div>
 
                 <div className='flex gap-5 mt-5'>
-                <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2'><i class="fa-solid fa-chart-simple"></i></span>
+                <span className='font-bold text-h3 text-white bg-dimblue  rounded-md h-[70px] px-6 mx-auto mt-2'><i className="fa-solid fa-chart-simple"></i></span>
                 <div>
                     <p className='font-bold text-h5'>Results</p>
                     <p className='text-gray w-3/4 mt-2 text-justify'>After all those steps you can expect fantastic result of our campaign. You can see the changes on your business.</p>
@@ -44,7 +44,7 @@ const WorkProcess = () => {
                 </div>
             </div>
             <div className='order-first lg:order-last'>
-                <img src={About} className='mb-8 md:mt-0'></img>
+                <img src={About} className='mb-8 md:mt-0' alt='work_progress'></img>
             </div>
 
         </div>

@@ -28,23 +28,23 @@ const VerticalBackground = () => {
                  <div className="w-16 h-0.5 bg-white ml-2"></div> {/* Right Line */}
              </div> 
             <p className='text-white text-h4 font-poppins font-medium ml-20'>Power of Digital Marketing</p>
-            <ul class="list-none mb-4 mt-4 ml-20">
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 bg-opacity-20 bg-white text-white px-4 h-full mt-4" ><i class="fa-solid fa-users"></i></span>
+            <ul className="list-none mb-4 mt-4 ml-20">
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 bg-opacity-20 bg-white text-white px-4 h-full mt-4" ><i className="fa-solid fa-users"></i></span>
     <div>
     <p className='text-white text-h5 font-bold font-poppins mt-2'>Unlimited Leads</p>
     <p className='text-white font-poppins text-[14px] mt-2'>Digital marketing can give you unlimited leads and you can use this to increase your business growth.</p>
     </div>
   </li>
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 bg-opacity-20 bg-white text-white text-white px-4 h-full mt-4"><i class="fa-solid fa-cart-shopping"></i></span>
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 bg-opacity-20 bg-white text-white text-white px-4 h-full mt-4"><i className="fa-solid fa-cart-shopping"></i></span>
     <div>
     <p className='text-white text-h5 font-bold font-poppins mt-2'>Unlimited Sales</p>
     <p className='text-white font-poppins text-[14px] mt-2'>You Can increase your sales through digital marketing.By using digital marketing , you can sell your products in all over the world.</p>
     </div>
   </li>
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 bg-opacity-20 bg-white text-white text-white px-6 h-full mt-4"><i class="fa-solid fa-money-bill-trend-up"></i></span>
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 bg-opacity-20 bg-white text-white text-white px-6 h-full mt-4"><i className="fa-solid fa-money-bill-trend-up"></i></span>
     <div>
     <p className='text-white text-h5 font-poppins font-bold mt-2'>Selected Customer</p>
     <p className='text-white text-[14px] mt-2 font-poppins '>Digital marketing give you the power to select your own customer according to their behaviour. That can help you to categorize your sales.</p>
@@ -58,10 +58,10 @@ const VerticalBackground = () => {
         <div className="bg-transparent py-4 relative ">
             
             <div className='flex w-68 justify-end -top-1 absolute left-[42.89%]'>
-            <p className='bg-blue py-8 px-10'><i class="fa-solid fa-users text-h1 text-white"></i></p>
+            <p className='bg-blue py-8 px-10'><i className="fa-solid fa-users text-h1 text-white"></i></p>
             <p className='text-h4 bg-white px-2 pt-4'>Let’s Get To Work Together</p>
             </div>
-            <img src={hero2} className='h-[92%] mt-16' alt="" />
+            <img src={hero2} className='h-[92%] mt-16' alt="work" />
             </div>
 
         {/* Add more columns as needed */}
@@ -88,23 +88,23 @@ const VerticalBackground = () => {
                  <div className="w-16 h-0.5 bg-white ml-2"></div> {/* Right Line */}
              </div> 
             <p className='text-white text-h4 font-poppins font-medium'>Power of Digital Marketing</p>
-            <ul class="list-none mb-4 mt-4 ">
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 bg-opacity-20 bg-white text-white px-4 h-full mt-4" ><i class="fa-solid fa-users"></i></span>
+            <ul className="list-none mb-4 mt-4 ">
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 bg-opacity-20 bg-white text-white px-4 h-full mt-4" ><i className="fa-solid fa-users"></i></span>
     <div>
     <p className='text-white text-h5 font-bold font-poppins mt-2'>Unlimited Leads</p>
     <p className='text-white font-poppins text-[14px] mt-2'>Digital marketing can give you unlimited leads and you can use this to increase your business growth.</p>
     </div>
   </li>
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 bg-opacity-20 bg-white text-white text-white px-4 h-full mt-4"><i class="fa-solid fa-cart-shopping"></i></span>
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 bg-opacity-20 bg-white text-white text-white px-4 h-full mt-4"><i className="fa-solid fa-cart-shopping"></i></span>
     <div>
     <p className='text-white text-h5 font-bold font-poppins mt-2'>Unlimited Sales</p>
     <p className='text-white font-poppins text-[14px] mt-2'>You Can increase your sales through digital marketing.By using digital marketing , you can sell your products in all over the world.</p>
     </div>
   </li>
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 bg-opacity-20 bg-white text-white text-white px-6 h-full mt-4"><i class="fa-solid fa-money-bill-trend-up"></i></span>
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 bg-opacity-20 bg-white text-white text-white px-6 h-full mt-4"><i className="fa-solid fa-money-bill-trend-up"></i></span>
     <div>
     <p className='text-white text-h5 font-poppins font-bold mt-2'>Selected Customer</p>
     <p className='text-white text-[14px] mt-2 font-poppins '>Digital marketing give you the power to select your own customer according to their behaviour. That can help you to categorize your sales.</p>

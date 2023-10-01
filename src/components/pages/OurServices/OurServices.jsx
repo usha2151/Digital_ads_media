@@ -27,11 +27,11 @@ const OurServices = () => {
           {/* Buttons */}
           <div className="mt-6">
           <Link to="https://digitaladsmedia07.offer18.com/m"><button className="px-4 py-3 md:px-6 md:py-4 bg-sky font-bold hover:bg-blue text-white mr-2 md:mr-4">
-            <i class="fa-regular fa-circle-right mr-2"></i>Affilate Sign Up
+            <i className="fa-regular fa-circle-right mr-2"></i>Affilate Sign Up
             </button>
             </Link>
             <Link to="https://digitaladsmedia07.offer18.com/m"> <button className="px-4 py-3 md:px-6 md:py-4 bg-sky font-bold hover:bg-blue text-white">
-            <i class="fa-regular fa-circle-right mr-2"></i>Affilate Login In
+            <i className="fa-regular fa-circle-right mr-2"></i>Affilate Login In
             </button>
             </Link>
           </div>

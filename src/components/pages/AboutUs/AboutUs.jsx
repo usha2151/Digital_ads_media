@@ -22,13 +22,13 @@ const AboutUs = () => {
         <div className="absolute inset-0 flex flex-col items-start justify-center text-white">
         <div className="container mx-auto px-6 lg:px-20">
           <p className="text-h1 font-poppins font-bold mt-32">About Us</p>
-          <div class="flex gap-16">
-    <span class="mr-2 text-[20px] text-white font-poppins">Follow Us On</span>
+          <div className="flex gap-16">
+    <span className="mr-2 text-[20px] text-white font-poppins">Follow Us On</span>
    <div className='flex gap-2'>
-    <p className='bg-blue rounded-md px-2 text-white text-h5'><i class="fa-brands fa-facebook"></i></p>
-    <p className='bg-blue rounded-md px-2 text-white text-h5'><i class="fa-brands fa-twitter"></i></p>
-    <p className='bg-blue rounded-md px-2 text-white text-h5'><i class="fa-brands fa-instagram"></i></p>
-    <p className='bg-blue rounded-md px-2 text-white text-h5'><i class="fa-brands fa-linkedin"></i></p>
+    <p className='bg-blue rounded-md px-2 text-white text-h5'><i className="fa-brands fa-facebook"></i></p>
+    <p className='bg-blue rounded-md px-2 text-white text-h5'><i className="fa-brands fa-twitter"></i></p>
+    <p className='bg-blue rounded-md px-2 text-white text-h5'><i className="fa-brands fa-instagram"></i></p>
+    <p className='bg-blue rounded-md px-2 text-white text-h5'><i className="fa-brands fa-linkedin"></i></p>
    </div>
   </div>      
           </div>

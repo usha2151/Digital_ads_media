@@ -22,36 +22,36 @@ const GetInTouch = () => {
         </div>
         <p className='text-h4 lg:text-h3 font-poppins font-bold mb-4'>Needs Help? Let’s Get in Touch</p>
         <p className='mb-4 text-justify'>If you want to contact our team for support, please feel free to reach us. Your feedback will help us to inprove our services.</p>
-        <ul class="list-none mb-4">
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-4 border-sky"><i class="fa-solid fa-phone"></i></span>
+        <ul className="list-none mb-4">
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-4 border-sky"><i className="fa-solid fa-phone"></i></span>
     <div>
     <p className='text-sky text-h5 font-bold mt-2'>Call Us: 0120 4252536</p>
     <p className='text-gray font-poppins'>Office Time : 09:30 to 06:45 </p>
     </div>
   </li>
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-4 border-sky"><i class="fa-solid fa-envelope-open-text"></i></span>
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-4 border-sky"><i className="fa-solid fa-envelope-open-text"></i></span>
     <div>
     <p className='text-sky text-h5 font-bold mt-2'>Email:</p>
     <p className='text-gray font-poppins'>contact@digitaladsmedia.in </p>
     </div>
   </li>
-  <li class="flex mb-2 gap-6">
-    <span class="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-6 py-2 border-sky"><i class="fa-solid fa-location-dot"></i></span>
+  <li className="flex mb-2 gap-6">
+    <span className="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-6 py-2 border-sky"><i className="fa-solid fa-location-dot"></i></span>
     <div>
     <p className='text-sky text-h5 font-bold mt-2'>Address:</p>
     <p className='text-gray font-poppins'>S-1 , 2nd Floor, Plot No.A-84, Sector 4, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301</p>
     </div>
   </li>
   
-  <li class="flex mt-12">
-    <span class="mr-2 text-h5 text-sky font-bold font-poppins">Follow Us</span>
+  <li className="flex mt-12">
+    <span className="mr-2 text-h5 text-sky font-bold font-poppins">Follow Us</span>
    <div className='flex gap-2 ml-auto'>
-    <p className='bg-blue rounded-md px-2 text-white text-h5'><i class="fa-brands fa-facebook"></i></p>
-    <p className='bg-blue rounded-md px-2 text-white text-h5'><i class="fa-brands fa-twitter"></i></p>
-    <p className='bg-blue rounded-md px-2 text-white text-h5'><i class="fa-brands fa-instagram"></i></p>
-    <p className='bg-blue rounded-md px-2 text-white text-h5'><i class="fa-brands fa-linkedin"></i></p>
+    <p className='bg-blue rounded-md px-2 text-white text-h5'><i className="fa-brands fa-facebook"></i></p>
+    <p className='bg-blue rounded-md px-2 text-white text-h5'><i className="fa-brands fa-twitter"></i></p>
+    <p className='bg-blue rounded-md px-2 text-white text-h5'><i className="fa-brands fa-instagram"></i></p>
+    <p className='bg-blue rounded-md px-2 text-white text-h5'><i className="fa-brands fa-linkedin"></i></p>
    </div>
   </li>
 </ul>

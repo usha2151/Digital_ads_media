@@ -1,5 +1,5 @@
 import React from 'react'
-import { Affliate_Marketting, Mobile_Marketting, Social_media, Search_Engine, Our_Strategy } from '../../images'
+import { Affliate_Marketting, Social_media, Search_Engine, Our_Strategy } from '../../images'
 import brand_marking from "../../images/services/brand marketing.jpg";
 import robot from "../../images/services/aichatbots.jpg";
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ const ServicesType = () => {
         {/* first row start */}
        <div className='grid grid-cols-1 lg:grid-cols-2 pt-8 pb-16'>
         <div className='relative -mt-16 lg:-mt-20'>
-            <img src={Affliate_Marketting} className='w-80 lg:w-3/4 mx-auto shadow-2xl'></img>
+            <img src={Affliate_Marketting} className='w-80 lg:w-3/4 mx-auto shadow-2xl' alt='affliate'></img>
         </div>
         <div className='mx-4 lg:mx-0'>
             <p className='text-blue font-bold mt-6 lg:mt-0'>Our Service</p>
@@ -34,7 +34,7 @@ const ServicesType = () => {
           <Link to="/contact_us"><button className='hover:bg-white hover:text-blue border-2 border-white p-6 mt-5 text-white'>Contact Us</button></Link>
         </div>
         <div className='relative -mt-20 lg:order-2'>
-            <img  src={Search_Engine}  className='w-80 lg:w-3/4 mx-auto shadow-2xl'></img>
+            <img  src={Search_Engine}  className='w-80 lg:w-3/4 mx-auto shadow-2xl' alt='search engin'></img>
         </div>
         
        </div>
@@ -43,7 +43,7 @@ const ServicesType = () => {
        {/* third row start */}
        <div className='grid grid-cols-1 lg:grid-cols-2 lg:py-8 lg:pb-8 pb-16 pt-10'>
         <div className='relative -mt-20'>
-            <img src={Our_Strategy} className='w-80 lg:w-3/4 h-56 lg:h-96 mx-auto shadow-2xl'></img>
+            <img src={Our_Strategy} className='w-80 lg:w-3/4 h-56 lg:h-96 mx-auto shadow-2xl' alt='strategy'></img>
         </div>
         <div className='mx-4 lg:mx-0'>
             <p className='text-blue font-bold mt-8 lg:mt-0'>Our Service</p>
@@ -65,7 +65,7 @@ const ServicesType = () => {
           <Link to="/contact_us"><button className='hover:bg-white hover:text-blue border-2 border-white p-6 mt-5 text-white'>Contact Us</button></Link>
         </div>
         <div className='relative -mt-20 lg:order-2'>
-            <img src={robot} className='w-80 lg:w-3/4 h-80 mx-auto shadow-2xl'></img>
+            <img src={robot} className='w-80 lg:w-3/4 h-80 mx-auto shadow-2xl' alt='robot'></img>
         </div>
        </div>
        {/* fourth row end */}
@@ -73,7 +73,7 @@ const ServicesType = () => {
        {/* fifth row start */}
        <div className='grid grid-cols-1 lg:grid-cols-2 py-8 pb-8'>
         <div className='relative -mt-20'>
-            <img src={Social_media} className='w-80 lg:w-3/4 mx-auto shadow-2xl'></img>
+            <img src={Social_media} className='w-80 lg:w-3/4 mx-auto shadow-2xl' alt='social'></img>
         </div>
         <div className='mx-4 lg:mx-0'>
             <p className='text-blue font-bold mt-8 lg:mt-0'>Our Service</p>
@@ -94,7 +94,7 @@ const ServicesType = () => {
           <Link to="/contact_us"><button className='hover:bg-white hover:text-blue border-2 border-white p-6 mt-5 text-white'>Contact Us</button></Link>
         </div>
         <div className='relative -mt-20 lg:order-2'>
-            <img src={brand_marking} className='w-80 lg:w-3/4 h-80 mx-auto shadow-2xl'></img>
+            <img src={brand_marking} className='w-80 lg:w-3/4 h-80 mx-auto shadow-2xl' alt='brand'></img>
         </div>
        </div>
       </div>

@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { logo } from "../images";
 
 const Navbar = () => {
   const navbarRef = useRef(null);
+  const location = useLocation();
 
   let Links = [
     { name: "HOME", link: "/" },
@@ -16,7 +17,12 @@ const Navbar = () => {
 
   let [open, setOpen] = useState(false);
   let [activeLink, setActiveLink] = useState("");
-  let [isPrintHovered, setIsPrintHovered] = useState(false);
+
+  useEffect(() => {
+    // Update the activeLink based on the current location
+    const currentPath = location.pathname;
+    setActiveLink(currentPath);
+  }, [location]);
 
   // Function to handle scroll and change background color
   const handleScroll = () => {
@@ -55,12 +61,11 @@ const Navbar = () => {
     setOpen(false);
   };
 
-  const handlePrintLinkMouseEnter = () => {
-    setIsPrintHovered(true);
-  };
-
-  const handlePrintLinkMouseLeave = () => {
-    setIsPrintHovered(false);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   };
 
   return (
@@ -71,10 +76,10 @@ const Navbar = () => {
       <div className="lg:flex text-white items-center container justify-between bg-transparent mx-auto xl:py-4 lg:px-16 lg:px-10 xl:px-20 2xl:px-52 px-7">
         <div className=" cursor-pointer flex items-center">
           <Link to="/">
-            <img src={logo} alt="" className="h-10 px-4 ml-8 w-20"/>
+            <img src={logo} alt="" className="h-10 px-4 ml-8 w-20" />
             <p className="text-h6 font-bold font-poppins w-full">
-      <span className="custom-text"></span>
-    </p>
+              <span className="custom-text"></span>
+            </p>
           </Link>
         </div>
 
@@ -93,20 +98,20 @@ const Navbar = () => {
           {Links.map((link) => (
             <li
               key={link.name}
-              className="lg:ml-8 lg:my-0 my-7 text-h6 font-poppins  relative group"
+              className="lg:ml-8 lg:my-0 my-7 text-h6 font-poppins text-sky  relative group"
             >
-              <div
-                onMouseEnter={() => link.name === "Print" && handlePrintLinkMouseEnter()}
-                onMouseLeave={() => link.name === "Print" && handlePrintLinkMouseLeave()}
-              >
+              <div>
                 <Link
                   to={link.link}
-                  className={`text-white group-hover:text-sky  font-poppins ${
+                  className={`group-hover:text-sky  font-poppins ${
                     activeLink === link.link
-                      ? "font-bold text-sky border-b-2 border-blue"
-                      : ""
+                      ? "font-bold text-sky border-b-2 border-sky"
+                      : "text-white"
                   }`}
-                  onClick={() => handleLinkClick(link.link)}
+                  onClick={() => {
+                    handleLinkClick(link.link);
+                    scrollToTop();
+                  }}
                 >
                   {link.name}
                 </Link>
