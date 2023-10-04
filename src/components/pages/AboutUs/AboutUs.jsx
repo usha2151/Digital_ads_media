@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../Common/Navbar';
 import { advertisers_bg } from '../../images';
-import Custome_Relationship from '../Home/Custome_Relationship';
+import CustomeRelationship from '../Home/CustomeRelationship';
 import Adviser from '../Home/Adviser';
 import WorkProcess from './WorkProcess';
 const AboutUs = () => {
@@ -35,7 +35,7 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
-    <Custome_Relationship />
+    <CustomeRelationship />
    <WorkProcess />
     <Adviser />
     </div>

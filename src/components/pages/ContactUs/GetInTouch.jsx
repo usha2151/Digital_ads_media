@@ -6,7 +6,7 @@ const GetInTouch = () => {
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
       <div>
       <iframe
-                src="https://www.google.com/maps/embed?pb=!1.771070944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a66677f%3A0x8f85bd068d1afb8a!2s30%20N%20Gould%20St%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sin!4v1684734636299!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.547169166641!2d77.61255727413689!3d12.936800115642159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144ca9530715%3A0x5e1e3893edb97d3c!2s1st%20A%20Main%20Rd%2C%207th%20Block%2C%20Koramangala%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1696432798277!5m2!1sen!2sin"
                 width="104%"
                 allowFullScreen=""
                 loading="lazy"
@@ -26,7 +26,7 @@ const GetInTouch = () => {
   <li className="flex mb-2 gap-6">
     <span className="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-4 border-sky"><i className="fa-solid fa-phone"></i></span>
     <div>
-    <p className='text-sky text-h5 font-bold mt-2'>Call Us: 0120 4252536</p>
+    <p className='text-sky text-h5 font-bold mt-2'>Call Us: +91 8368958328</p>
     <p className='text-gray font-poppins'>Office Time : 09:30 to 06:45 </p>
     </div>
   </li>
@@ -41,7 +41,7 @@ const GetInTouch = () => {
     <span className="mr-2 text-h2 border border-[3px] rounded-lg text-blue px-6 py-2 border-sky"><i className="fa-solid fa-location-dot"></i></span>
     <div>
     <p className='text-sky text-h5 font-bold mt-2'>Address:</p>
-    <p className='text-gray font-poppins'>S-1 , 2nd Floor, Plot No.A-84, Sector 4, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301</p>
+    <p className='text-gray font-poppins'>1 st A Main Rd, 7th Block,Koramangala,Bengaluru,Karnataka 560095</p>
     </div>
   </li>
   
